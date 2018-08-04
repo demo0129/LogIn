@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <title>登录界面</title>
+  <link rel="stylesheet" href="log_in.css" />
+</head>
+<body>
+<div class="login_page">
+  <div  class="form">
+    <form class="register_form">
+      <input type="text" id="r_UserName" class="r_UserName" placeholder="用户名" autofocus="autofocus" required="required" />
+      <input type="password" id="r_password" placeholder="密码" required="required" />
+      <input type="email" id="r_email" placeholder="邮箱" required="required" />
+      <button id="create" >创建账号</button>
+      <p class="message">已经有一个账号？<a href="#">返回登录</a></p>
+    </form>
+    <form class="login_form">
+      <input type="text" id="UserName" placeholder="用户名" required="required" />
+      <input type="password" id="password" placeholder="密码" required="required" />
+      <button id="login">登录</button>
+      <p class="message">还没有账户? <a href="#">创建账号</a></p>
+    </form>
+
+
+  </div>
+</div>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="log_in.js"></script>
+</body>
+</html>
